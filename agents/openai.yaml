@@ -1,4 +1,4 @@
 interface:
-  display_name: "国内网站上线向导"
-  short_description: "一步步把本地项目经 GitHub 部署到国内可访问域名"
-  default_prompt: "使用 $guokeai-site 带我把本地网站安全部署到服务器并绑定国内可访问域名。"
+  display_name: "国内外网站上线向导"
+  short_description: "先选国内或国外路线，再逐步完成网站部署与域名上线"
+  default_prompt: "使用 $guokeai-site 先问我选择国内还是国外上线，再一步步完成部署。"

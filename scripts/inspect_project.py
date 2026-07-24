@@ -220,7 +220,7 @@ def main() -> int:
     names = env_template_names(root)
     print("- 环境变量模板名称：" + ("、".join(f"`{n}`" for n in names) or "未发现"))
     print("\n> 本脚本不会运行构建、读取真实 `.env` 值或判断线上合规。")
-    print("> 下一步仍需确认产物目录、监听端口、健康检查、持久化数据、服务器地域和正式域名。")
+    print("> 下一步仍需确认国内/国外路线、产物目录、健康检查、持久化数据、托管方式、目标区域和正式域名。")
     return 0
 
 
